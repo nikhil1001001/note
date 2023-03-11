@@ -1,1 +1,455 @@
 Now you can signup
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/Desktop
+$ mkdir workshop
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/Desktop
+$ mkdir first workshop
+mkdir: cannot create directory ‘workshop’: File exists
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/Desktop
+$ mkdir first book
+mkdir: cannot create directory ‘first’: File exists
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/Desktop
+$ mkdir lets start
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/Desktop
+$ mkdir 'lets start'
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/Desktop
+$ rm -rf book
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/Desktop
+$ cd workshop
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/Desktop/workshop
+$ pwd
+/c/Users/USER/Desktop/workshop
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/Desktop/workshop
+$ touch page.txt
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/Desktop/workshop
+$ echo "Hello World"
+Hello World
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/Desktop/workshop
+$ echo "Hello World">page.txt
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/Desktop/workshop
+$ cat page.txt
+Hello World
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/Desktop/workshop
+$ cat page.txt
+Hello World
+Hello people
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/Desktop/workshop
+$ touch chapter.txt
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/Desktop/workshop
+$ rm chapter.txt
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/Desktop/workshop
+$ cd ..
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/Desktop
+$ pwd
+/c/Users/USER/Desktop
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/Desktop
+$ cd workshop
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/Desktop/workshop
+$ cd ../../
+
+USER@DESKTOP-FQID0L6 MINGW64 ~
+$ cd desktop
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/desktop
+$ ls
+'Adobe Photoshop 7.0.lnk'*  'Visual Studio Code.lnk'*   medical.xlsx
+ BOOKS/                      desktop.ini               'sem 2'/
+'MinGW Installer.lnk'*       first/                     start/
+'PHY SEM'/                  'html web'/                 workshop/
+'Person 1 - Chrome.lnk'*     lets/
+ Taskade.lnk*               'lets start'/
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/desktop
+$ mkdir koss- workshop
+mkdir: cannot create directory ‘workshop’: File exists
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/desktop
+$ cd koss
+bash: cd: koss: No such file or directory
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/desktop
+$ cd koss-workshop
+bash: cd: koss-workshop: No such file or directory
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/desktop
+$ mkdir koss-workshop
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/desktop
+$ cd loss-workshop
+bash: cd: loss-workshop: No such file or directory
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/desktop
+$ cd koss-workshop
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/desktop/koss-workshop
+$ git init
+Initialized empty Git repository in C:/Users/USER/Desktop/koss-workshop/.git/
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/desktop/koss-workshop (master)
+$ ls -a
+./  ../  .git/
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/desktop/koss-workshop (master)
+$ touch signup.txt
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/desktop/koss-workshop (master)
+$ echo "Now you can signup">signup.txt
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/desktop/koss-workshop (master)
+$ cat signup.txt
+Now you can signup
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/desktop/koss-workshop (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        signup.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/desktop/koss-workshop (master)
+$ touch login.txt
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/desktop/koss-workshop (master)
+$ echo "You can login now">login.txt
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/desktop/koss-workshop (master)
+$ cat login.txt
+You can login now
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/desktop/koss-workshop (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        login.txt
+        signup.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/desktop/koss-workshop (master)
+$ git add login.txt
+warning: in the working copy of 'login.txt', LF will be replaced by CRLF the next time Git touches it
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/desktop/koss-workshop (master)
+$ git add signup.txt
+warning: in the working copy of 'signup.txt', LF will be replaced by CRLF the next time Git touches it
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/desktop/koss-workshop (master)
+$ sit status
+bash: sit: command not found
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/desktop/koss-workshop (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   login.txt
+        new file:   signup.txt
+
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/desktop/koss-workshop (master)
+$ touch share.txt
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/desktop/koss-workshop (master)
+$ echo "You can share now">share.txt
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/desktop/koss-workshop (master)
+$ cat share.txt
+You can share now
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/desktop/koss-workshop (master)
+$ git add .
+warning: in the working copy of 'share.txt', LF will be replaced by CRLF the next time Git touches it
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/desktop/koss-workshop (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   login.txt
+        new file:   share.txt
+        new file:   signup.txt
+
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/desktop/koss-workshop (master)
+$ git commit -m"Three folders have been created"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'USER@DESKTOP-FQID0L6.(none)')
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/desktop/koss-workshop (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   login.txt
+        new file:   share.txt
+        new file:   signup.txt
+
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/desktop/koss-workshop (master)
+$ git config --global user.email "nikhil181yadav@gmail.com"
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/desktop/koss-workshop (master)
+$ git config --global user.name "nikhl001"
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/desktop/koss-workshop (master)
+$ git commit -m"Three folders have been created"
+[master (root-commit) 4a0f86b] Three folders have been created
+ 3 files changed, 3 insertions(+)
+ create mode 100644 login.txt
+ create mode 100644 share.txt
+ create mode 100644 signup.txt
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/desktop/koss-workshop (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/desktop/koss-workshop (master)
+$ git log
+commit 4a0f86bd28557fae0e2472da522048ac73d345ff (HEAD -> master)
+Author: nikhl001 <nikhil181yadav@gmail.com>
+Date:   Sat Mar 11 15:19:24 2023 +0530
+
+    Three folders have been created
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/desktop/koss-workshop (master)
+$ echo "Lets start">login.txt
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/desktop/koss-workshop (master)
+$ cat login.txt
+Lets start
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/desktop/koss-workshop (master)
+$ echo "You can login now">>login.txt
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/desktop/koss-workshop (master)
+$ cat login.txt
+Lets start
+You can login now
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/desktop/koss-workshop (master)
+$ git add .
+warning: in the working copy of 'login.txt', LF will be replaced by CRLF the next time Git touches it
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/desktop/koss-workshop (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   login.txt
+
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/desktop/koss-workshop (master)
+$ git commit -m "Modified login.txt"
+[master 18edcb7] Modified login.txt
+ 1 file changed, 1 insertion(+)
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/desktop/koss-workshop (master)
+$ git log
+commit 18edcb7d5809a8fdfa01badf66fdab2d82c252c5 (HEAD -> master)
+Author: nikhl001 <nikhil181yadav@gmail.com>
+Date:   Sat Mar 11 15:28:14 2023 +0530
+
+    Modified login.txt
+
+commit 4a0f86bd28557fae0e2472da522048ac73d345ff
+Author: nikhl001 <nikhil181yadav@gmail.com>
+Date:   Sat Mar 11 15:19:24 2023 +0530
+
+    Three folders have been created
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/desktop/koss-workshop (master)
+$ git status
+
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   login.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/desktop/koss-workshop (master)
+$
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/desktop/koss-workshop (master)
+$ git checkout .
+Updated 1 path from the index
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/desktop/koss-workshop (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/desktop/koss-workshop (master)
+$ git add .
+warning: in the working copy of 'share.txt', LF will be replaced by CRLF the next time Git touches it
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/desktop/koss-workshop (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   share.txt
+
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/desktop/koss-workshop (master)
+$ git reset --hard HEAD
+HEAD is now at 18edcb7 Modified login.txt
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/desktop/koss-workshop (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   share.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/desktop/koss-workshop (master)
+$ git add .
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/desktop/koss-workshop (master)
+$ git commit -m"
+>
+>
+> ^C
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/desktop/koss-workshop (master)
+$ git commit -m"
+> ^C
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/desktop/koss-workshop (master)
+$ git commit -m"The cat appeared"
+[master e000141] The cat appeared
+ 1 file changed, 1 insertion(+)
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/desktop/koss-workshop (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/desktop/koss-workshop (master)
+$ git log
+commit e000141a463da9b784cd70e16801b0f48df852b1 (HEAD -> master)
+Author: nikhl001 <nikhil181yadav@gmail.com>
+Date:   Sat Mar 11 15:40:34 2023 +0530
+
+    The cat appeared
+
+commit 18edcb7d5809a8fdfa01badf66fdab2d82c252c5
+Author: nikhl001 <nikhil181yadav@gmail.com>
+Date:   Sat Mar 11 15:28:14 2023 +0530
+
+    Modified login.txt
+
+commit 4a0f86bd28557fae0e2472da522048ac73d345ff
+Author: nikhl001 <nikhil181yadav@gmail.com>
+Date:   Sat Mar 11 15:19:24 2023 +0530
+
+    Three folders have been created
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/desktop/koss-workshop (master)
+$ git reset --hard ^C
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/desktop/koss-workshop (master)
+$ git reset --hard 2c252c5
+fatal: ambiguous argument '2c252c5': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/desktop/koss-workshop (master)
+$ ^C
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/desktop/koss-workshop (master)
+$ git reset --hard edcb7d5809a8fdfa01badf66fdab2d82c252c5
+fatal: ambiguous argument 'edcb7d5809a8fdfa01badf66fdab2d82c252c5': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/desktop/koss-workshop (master)
+$ git reset --HARD edcb7d5809a8fdfa01badf66fdab2d82c252c5
+error: unknown option `HARD'
+usage: git reset [--mixed | --soft | --hard | --merge | --keep] [-q] [<commit>]
+   or: git reset [-q] [<tree-ish>] [--] <pathspec>...
+   or: git reset [-q] [--pathspec-from-file [--pathspec-file-nul]] [<tree-ish>]
+   or: git reset --patch [<tree-ish>] [--] [<pathspec>...]
+   or: DEPRECATED: git reset [-q] [--stdin [-z]] [<tree-ish>]
+
+    -q, --quiet           be quiet, only report errors
+    --no-refresh          skip refreshing the index after reset
+    --mixed               reset HEAD and index
+    --soft                reset only HEAD
+    --hard                reset HEAD, index and working tree
+    --merge               reset HEAD, index and working tree
+    --keep                reset HEAD but keep local changes
+    --recurse-submodules[=<reset>]
+                          control recursive updating of submodules
+    -p, --patch           select hunks interactively
+    -N, --intent-to-add   record only the fact that removed paths will be added later
+    --pathspec-from-file <file>
+                          read pathspec from file
+    --pathspec-file-nul   with --pathspec-from-file, pathspec elements are separated with NUL character
+    -z                    DEPRECATED (use --pathspec-file-nul instead): paths are separated with NUL character
+    --stdin               DEPRECATED (use --pathspec-from-file=- instead): read paths from <stdin>
+
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/desktop/koss-workshop (master)
+$ git reset --hard 18edcb7d5809a8fdfa01badf66fdab2d82c252c5
+HEAD is now at 18edcb7 Modified login.txt
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/desktop/koss-workshop (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+USER@DESKTOP-FQID0L6 MINGW64 ~/desktop/koss-workshop (master)
+$
